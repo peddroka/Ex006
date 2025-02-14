@@ -7,5 +7,19 @@
   </head>
   <body>
     <h1>Links e imagens</h1>
+    <p>Usando a tag picture</p>
+    <picture>
+      <source
+        media="(max-width: 750px)"
+        srcset="img/blue.png.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="img/orange.jpg.jpg"
+        type="image/jpg"
+      />
+      <img src="img/pink.png.png" alt="Imagem principal" />
+    </picture>
   </body>
 </html>
